@@ -1,7 +1,6 @@
 var express = require("express");
 var bodyParser = require("body-parser");
-var path = require("path");
-friendsArray = require("./App/Data/friends.js");
+
 
 var app = express();
 var PORT = process.env.PORT || 3000;
